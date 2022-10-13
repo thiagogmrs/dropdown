@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dropdown</title>
+</head>
+<body>
+    <input type="submit" id="x" value="Subir">
+    <div class="header_bg">
+    <header class="header_wrapper">
+        <a href="#" class="logo">Logo</a>
+        <nav class="navbar">
+               
+            <ul class="navbar_menu">
+                <li class="navbar_item"><a href="#">Home</a></li>
+
+                <li class="navbar_item">
+                    <a href="#" class="dropMenu">Cursos</a>
+
+                    <div class="submenu">
+                        <div class="menu_Img">
+                            <img src="./img/capa.png" alt="">
+                        </div>
+                        <div class="submenu_items">
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-html5 fa-2x cor-1"></i>
+                                <a href="#"><p>Html 5</a></p>
+                            </div>
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-css3 fa-2x cor-1"></i>
+                                <a href="#"><p>Css 3</a></p>
+                            </div>
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-js fa-2x cor-1"></i>
+                                <a href="#"><p>Javascript</a></p>
+                            </div>
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-react fa-2x cor-1"></i>
+                                <a href="#"><p>React</a></p>
+                            </div>
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-figma fa-2x cor-1"></i>
+                                <a href="#"><p>Figma</a></p>
+                            </div>
+                            <div class="submenu_item">
+                                <i class="fa-brands fa-wordpress fa-2x cor-1"></i>
+                                <a href="#"><p>Wordpress</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </li>
+
+                <li class="navbar_item"><a href="#" class="dropLogin">Login</a>
+                    <div class="menu_Login">
+                        <form action="" method="" id="form">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="password">Senha</label>
+                            <input type="password"  id="password" name="password">
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+               </li>
+
+            </ul>
+
+        </nav>
+    </header>
+   </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/fd48cbd2ce.js" crossorigin="anonymous"></script>
+</body>
+</html>
